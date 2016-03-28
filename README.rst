@@ -1,3 +1,5 @@
+::
+
               __       __    __
     .--.--.--|__.-----|  |--|  |--.-----.-----.-----.
     |  |  |  |  |__ --|     |  _  |  _  |     |  -__|
@@ -11,7 +13,7 @@
     wishbone.output.tcp
     ===================
 
-    Version: 0.1.0
+    Version: 1.0.0
 
     Submit event data to a TCP socket.
     ----------------------------------
@@ -45,5 +47,3 @@
 
             - inbox
                |  Incoming events submitted to the outside.
-
-
