@@ -30,7 +30,7 @@ PROJECT = 'wishbone_output_tcp'
 VERSION = '1.0.1'
 
 install_requires = [
-    'wishbone>=2.1.1',
+    'wishbone>=2.1.4',
 ]
 
 try:
