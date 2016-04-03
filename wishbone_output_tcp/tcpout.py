@@ -71,7 +71,7 @@ class TCPOut(Actor):
     def consume(self, event):
 
         if isinstance(event, Bulk):
-            data = Bulk.dumpFieldsAsString(self.kwargs.selection)
+            data = event.dumpFieldsAsString(self.kwargs.selection)
         else:
             data = event.get(self.kwargs.selection)
 
